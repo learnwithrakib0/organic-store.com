@@ -36,6 +36,7 @@
   }
   .footer-links li {
     margin-bottom: 10px;
+    text-decoration: none;
   }
   .footer-links a {
     color: rgba(255,255,255,0.66);

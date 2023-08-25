@@ -27,7 +27,7 @@
                 <h5><a class="nav-link" aria-current="page" href="index.html">Home</a></h5>
               </li>
               <li class="nav-item  mx-2">
-                <h5><a class="nav-link" href="#">Groceries</a></h5>
+                <h5><a class="nav-link" href="app.groceries.html">Groceries</a></h5>
               </li>
       
               <li class="nav-item  mx-2">
@@ -44,6 +44,10 @@
               <li class="nav-item dropdown mx-2">
                 <h5><a class="nav-link" href="#">Registration</a></h5>
               </li>
+              <li class="nav-item dropdown mx-2">
+                <h5> <a class="nav-link" href="app.groceries.html"><i class="fa-solid fa-cart-arrow-down"></i> Shop</a></h5>
+              </li>
+             
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -111,41 +115,60 @@
 <!-- Q&A section start here -->
 
   <div class="container" style="padding: 3% 0% 8% 0% ;">
-    <div class="row">
+    <div class="row p-2">
         <h1 class="text-center">Frequently Asked Question!</h1>
         <div class="text-center">
             <img class="img-fluid" src="img/logo-leaf-new.png" alt="img">
         </div>
-        <div class="col-md-6 col-12 p-5" >
-          <h6 class="fw-bold">Pulvinar nostrud class cum facilis?</h6>
-          <p style="text-align: justify;">I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.</p>
-          
+        <div class="col-lg-10 mt-3 p-2">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  আমরা কি হোম ডেলিবারি দিই?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>জি, আমরা হোম ডেলিবারি ডিয়ে থাকি।
+                </div>
+              </div>
+            </div>
 
-          <h6 class="fw-bold">Pon excepturi numquam, facilis?</h6>
-          <p style="text-align: justify;">I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.</p>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  আপনাদের কাছে থাকা প্রোডাক্টগুলো কী অথেন্টিক?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong> অবশ্যই , আমাদের কাছে থাকা প্রতিটি পন্য অথেন্টিক। আপনারা তা যাচাই করতে পারেন ।
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-
-          <h6 class="fw-bold">Pulvinar nostrud class cum facilis?</h6>
-          <p style="text-align: justify;">I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.</p>
-        </div>  
-        
-        
-        <div class="col-md-6 col-12 p-5">
-          <h6 class="fw-bold">Pulvinar nostrud class cum facilis?</h6>
-          <p style="text-align: justify;">I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.</p>
-        
-          <h6 class="fw-bold">Pulvinar nostrud class cum facilis?</h6>
-          <p style="text-align: justify;">I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.</p>
-        
-          <h6 class="fw-bold">Pulvinar nostrud class cum facilis?</h6>
-          <p style="text-align: justify;">I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.</p>
-        </div> 
-        
-        
     </div>
   </div>
 
 <!-- Q&A section end here -->
+
+
 
 
 <!-- footer start here -->

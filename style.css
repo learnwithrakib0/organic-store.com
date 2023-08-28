@@ -49,13 +49,14 @@
   }
 
 
-.card{
+.WrapperProductCard{
   transition: all 0.5s;
+  border-radius: 8px;
 }
 
-.card:hover{
-  transform: scale(1.15);
-  overflow: hidden;
+.WrapperProductCard:hover{
+  transform: scale(1.03);
+  
   z-index: 5;
 }
 
@@ -90,7 +91,8 @@
   color: white;
 }
 
-
-
+.catagory a{
+  text-decoration: none;
+}
 
 

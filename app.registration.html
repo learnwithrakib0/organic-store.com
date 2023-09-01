@@ -69,38 +69,48 @@
                     <img class="img-fluid" src="img/undraw_Mobile_login_re_9ntv.png" alt="">
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" >
                     <form class="row g-3 p-3" action="https://formspree.io/f/mqkjzyyy" method="POST">
                         <h3 class="pt-4 fw-bold">রেজিস্ট্রেশন করুন</h3>
                         <div class="col-md-6">
-                          <label for="inputEmail4" class="form-label"><i class="fa-solid fa-signature "></i> আপনার নাম</label>
-                          <input type="name" name="Name" class="form-control" id="inputEmail4" placeholder="" required>
+                          <label for="inputEmail4" class="form-label"><i class="fa-solid fa-signature "></i> আপনার নাম*</label>
+                          <input type="name" name="Name" class="form-control" id="inputEmail4" placeholder="Enter your name" required>
                         </div>
                         <div class="col-md-6">
-                          <label for="inputPassword4" class="form-label"><i class="fa-sharp fa-solid fa-lock "></i> ই-মেইল</label>
-                          <input type="email" name="e-mail" class="form-control" id="inputPassword4" required>
+                          <label for="inputPassword4" class="form-label"><i class="fa-sharp fa-solid fa-lock "></i> ই-মেইল*</label>
+                          <input type="email" name="e-mail" class="form-control" id="inputPassword4" required placeholder="Enter your e-mail">
                         </div>
                         <div class="col-12">
-                          <label for="inputAddress" class="form-label"> <i class="fa-solid fa-map-location"></i> ঠিকানা</label>
-                          <input type="text" name="address" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+                          <label for="inputAddress" class="form-label"> <i class="fa-solid fa-map-location"></i> ঠিকানা*</label>
+                          <input type="text" name="address" class="form-control" id="inputAddress" placeholder="Enter your current address" required>
                         </div>
                         <div class="col-12">
-                          <label for="inputAddress2" class="form-label"><i class="fa-solid fa-phone "></i> ফোন নম্বর</label>
-                          <input type="text" name="phone number" class="form-control" id="inputAddress2" placeholder="Phone Number" required>
+                          <label for="inputAddress2" class="form-label"><i class="fa-solid fa-phone "></i> ফোন নম্বর*</label>
+                          <input type="text" name="phone number" class="form-control" id="inputAddress2" placeholder="Enter your Phone Number" required>
                         </div>
-                        <div class="col-md-6">
-                          <label for="inputCity" class="form-label">শহর</label>
+
+                        <div class="col-md-4">
+                          <label for="inputCity" class="form-label"><i class="fa-solid fa-phone "></i> শহর</label>
                           <input type="text" name="city name" class="form-control" id="inputCity" required>
                         </div>
-                        <div class="col-md-6">
-                            <label for="inputZip" class="form-label "><i class="fa-solid fa-money-check-dollar"></i> আপনি কিসের মাধ্যমে পেমেন্ট করতে চান</label>
-                            <select id="inputState" class="form-select" name="Payment method" required>
-                              <option selected>Bkash<img class="img-fluid" src="img/bkash-logo-FBB258B90F-seeklogo.png" alt=""></option>
-                              <option selected>Nagad</option>
-                              <option selected>Cash on delivary</option>
-                              <option selected>Select</option>
-                            </select>
-                          </div>
+                        
+                        <div class="col-md-8">
+                          <label for="inputZip" class="form-label "><i class="fa-solid fa-money-check-dollar"></i> আপনি কিসের মাধ্যমে পেমেন্ট করতে চান*</label>
+                          <select id="inputState" class="form-select" name="Payment method" required>
+                            <option selected>বিকাশ<img class="img-fluid" src="img/bkash-logo-FBB258B90F-seeklogo.png" alt=""></option>
+                            <option selected>নগদ</option>
+                            <option selected>Cash on delivary</option>
+                            <option selected>Select</option>
+                          </select>
+                        </div>
+
+                        
+
+                        <div class="col-12">
+                          <label for="inputCity" class="form-label"><i class="fa-solid fa-phone "></i> যে নম্বর থেকে পেমেন্ট করেছেন ঐ নম্বরটি দিন*</label>
+                          <input type="text" name="city name" class="form-control" id="inputCity" required>
+                        </div>
+                        
 
                         <div class="col-12">
                           <div class="form-check">
